@@ -63,12 +63,9 @@ namespace OS
                     }
                 }
                 else
-                {
-                    Console.WriteLine("Isnt exist!");
-                }
+                    Console.WriteLine("ERROR!");
 
             } while (choice.ToLower() != "open");
-
 
         }
     }
